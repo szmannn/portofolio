@@ -1,0 +1,39 @@
+
+
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Suman Adhikari</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Contact Suman Adhikari</h1>
+            <h2>Ik hoor graag van u!</h2>
+        </header>
+        <section class="contact-form">
+            <h3>Get in Touch</h3>
+            <form action="sendmail.php" method="post">
+                <label for="name">Naam</label>
+                <input type="text" id="name" name="name" placeholder="Uw naam.." required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Uw email.." required>
+
+                <label for="subject">Onderwerp</label>
+                <input type="text" id="subject" name="subject" placeholder="Onderwerp.."required>
+
+                <label for="message">Bericht</label>
+                <textarea id="message" name="message" rows="6"placeholder="Bericht...." required></textarea>
+                <button type="submit" class="btn">Verzenden</button>
+            </form>
+           
+        </section>
+        <a href="homescreen.html" class="btn">Home</a>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

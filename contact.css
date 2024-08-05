@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: url('contactus.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color: #d1e9ff;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 24px;
+    color: #d03a05;
+}
+
+section.contact-form {
+    margin-bottom: 20px;
+}
+
+section.contact-form h3 {
+    font-size: 28px;
+    color: #d03a05;
+    margin-bottom: 10px;
+}
+
+section.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+section.contact-form label {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+section.contact-form input,
+section.contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background: #fff;
+    color: #000;
+}
+
+section.contact-form textarea {
+    resize: vertical;
+}
+
+.btn {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all 0.4s ease-in-out;
+    background-size: 152% 100%;
+    background: #d03a05;
+    border: 2px solid #d03a05;
+    margin-left: 40%;
+}
+
+.btn:hover {
+    background: transparent;
+    border-color: #d03a05;
+    color: #d03a05;
+}
